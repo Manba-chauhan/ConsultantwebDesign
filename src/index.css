@@ -1,0 +1,56 @@
+/* Customize Swiper navigation buttons */
+
+.mySwiper{
+    width:50%;
+    margin-left:-20px;
+    /* margin-top: 80px; */
+      font-size: 20px;
+    /* marginleft:50px */
+}
+@media screen and (max-width: 600px) {
+    .mySwiper{
+        width:100%;
+        margin-left:0px;
+    }
+    
+}
+.swiper-button-next,
+.swiper-button-prev {
+    color: white;
+    /* Change button color */
+    width: 20px;
+    /* Set button width */
+    height: 20px;
+    /* Set button height */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Add background color */
+    border-radius: 4px;
+    /* Make buttons square */
+}
+
+.swiper-button-next::before,
+.swiper-button-prev::before {
+    font-size: 10px;
+    /* Decrease arrow icon size */
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Change background color on hover */
+    color: black;
+    /* Change text color on hover */
+}
+
+/* Customize Swiper pagination bullets */
+.swiper-pagination-bullet {
+    background: white;
+    /* Change bullet color */
+    opacity: 1;
+    /* Make bullets fully opaque */
+}
+
+.swiper-pagination-bullet-active {
+    background: #f00;
+    /* Change active bullet color */
+}
