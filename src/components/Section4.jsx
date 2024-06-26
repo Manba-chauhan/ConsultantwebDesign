@@ -16,7 +16,7 @@ const Section4 = () => {
       <Box
         sx={{
           bgcolor: "#e5e5e5",
-          pt: { xs:4, sm: 40, md: 10 },
+          pt: { xs:10, sm: 40, md: 10 },
           pb: { xs: 20, sm: 0, md: 10 },
         }}
       >
