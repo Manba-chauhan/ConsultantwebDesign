@@ -9,7 +9,7 @@ import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 const HeroSection3 = () => {
   return (
     <ThemeProvider theme={theme}>
-      <Box sx={{ bgcolor: "#e5e5e5", mt: { xs: -40, sm: -20, md: -30 } }}>
+      <Box sx={{ bgcolor: "#e5e5e5", mt: { xs: -50, sm: -20, md: -30 } }}>
         <Container>
           <Box
             sx={{
